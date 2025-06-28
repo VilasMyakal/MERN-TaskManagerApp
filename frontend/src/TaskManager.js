@@ -187,7 +187,7 @@ function TaskManager(){
                 
                 {
                     Tasks.map((item)=>(
-                        <div className="m-2 p-2 border bg-light w-100 rounded-3 d-flex justify-content-between align-items-center">
+                        <div key={item._id} className="m-2 p-2 border bg-light w-100 rounded-3 d-flex justify-content-between align-items-center">
 
                             <span className={item.isDone ? "text-decoration-line-through" : ''}>{item.taskName}</span>
                             <div className="">
