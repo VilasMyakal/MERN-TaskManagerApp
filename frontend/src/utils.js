@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
 
-export const API_URL = 'http://localhost:8000'
+export const API_URL = 'https://mern-task-manager-app-api-swart.vercel.app'
 
 export const notify = (message,type) =>{
 
